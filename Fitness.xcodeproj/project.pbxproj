@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8199C0F613C7B4E80025DF96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8199C0F513C7B4E80025DF96 /* UIKit.framework */; };
+		8199C0F813C7B4E80025DF96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8199C0F713C7B4E80025DF96 /* Foundation.framework */; };
+		8199C0FA13C7B4E80025DF96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8199C0F913C7B4E80025DF96 /* CoreGraphics.framework */; };
+		8199C0FC13C7B4E80025DF96 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8199C0FB13C7B4E80025DF96 /* CoreData.framework */; };
+		8199C10213C7B4E80025DF96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8199C10013C7B4E80025DF96 /* InfoPlist.strings */; };
+		8199C10513C7B4E80025DF96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199C10413C7B4E80025DF96 /* main.m */; };
+		8199C10813C7B4E80025DF96 /* FitnessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199C10713C7B4E80025DF96 /* FitnessAppDelegate.m */; };
+		8199C10B13C7B4E80025DF96 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8199C10913C7B4E80025DF96 /* MainWindow.xib */; };
+		8199C10E13C7B4E80025DF96 /* Fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8199C10C13C7B4E80025DF96 /* Fitness.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8199C0F113C7B4E80025DF96 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8199C0F513C7B4E80025DF96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8199C0F713C7B4E80025DF96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8199C0F913C7B4E80025DF96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8199C0FB13C7B4E80025DF96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8199C0FF13C7B4E80025DF96 /* Fitness-Info.plist */ = {isa = PBXFileReference; path = "Fitness-Info.plist"; sourceTree = "<group>"; };
+		8199C10113C7B4E80025DF96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8199C10313C7B4E80025DF96 /* Fitness-Prefix.pch */ = {isa = PBXFileReference; path = "Fitness-Prefix.pch"; sourceTree = "<group>"; };
+		8199C10413C7B4E80025DF96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8199C10613C7B4E80025DF96 /* FitnessAppDelegate.h */ = {isa = PBXFileReference; path = FitnessAppDelegate.h; sourceTree = "<group>"; };
+		8199C10713C7B4E80025DF96 /* FitnessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessAppDelegate.m; sourceTree = "<group>"; };
+		8199C10A13C7B4E80025DF96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8199C10D13C7B4E80025DF96 /* Fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitness.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8199C0EE13C7B4E80025DF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199C0F613C7B4E80025DF96 /* UIKit.framework in Frameworks */,
+				8199C0F813C7B4E80025DF96 /* Foundation.framework in Frameworks */,
+				8199C0FA13C7B4E80025DF96 /* CoreGraphics.framework in Frameworks */,
+				8199C0FC13C7B4E80025DF96 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8199C0E613C7B4E80025DF96 = {
+			isa = PBXGroup;
+			children = (
+				8199C0FD13C7B4E80025DF96 /* Fitness */,
+				8199C0F413C7B4E80025DF96 /* Frameworks */,
+				8199C0F213C7B4E80025DF96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8199C0F213C7B4E80025DF96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8199C0F113C7B4E80025DF96 /* Fitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8199C0F413C7B4E80025DF96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8199C0F513C7B4E80025DF96 /* UIKit.framework */,
+				8199C0F713C7B4E80025DF96 /* Foundation.framework */,
+				8199C0F913C7B4E80025DF96 /* CoreGraphics.framework */,
+				8199C0FB13C7B4E80025DF96 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8199C0FD13C7B4E80025DF96 /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				8199C10613C7B4E80025DF96 /* FitnessAppDelegate.h */,
+				8199C10713C7B4E80025DF96 /* FitnessAppDelegate.m */,
+				8199C10913C7B4E80025DF96 /* MainWindow.xib */,
+				8199C10C13C7B4E80025DF96 /* Fitness.xcdatamodeld */,
+				8199C0FE13C7B4E80025DF96 /* Supporting Files */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		8199C0FE13C7B4E80025DF96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8199C0FF13C7B4E80025DF96 /* Fitness-Info.plist */,
+				8199C10013C7B4E80025DF96 /* InfoPlist.strings */,
+				8199C10313C7B4E80025DF96 /* Fitness-Prefix.pch */,
+				8199C10413C7B4E80025DF96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8199C0F013C7B4E80025DF96 /* Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8199C11113C7B4E80025DF96 /* Build configuration list for PBXNativeTarget "Fitness" */;
+			buildPhases = (
+				8199C0ED13C7B4E80025DF96 /* Sources */,
+				8199C0EE13C7B4E80025DF96 /* Frameworks */,
+				8199C0EF13C7B4E80025DF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitness;
+			productName = Fitness;
+			productReference = 8199C0F113C7B4E80025DF96 /* Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8199C0E813C7B4E80025DF96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Akaibo;
+			};
+			buildConfigurationList = 8199C0EB13C7B4E80025DF96 /* Build configuration list for PBXProject "Fitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8199C0E613C7B4E80025DF96;
+			productRefGroup = 8199C0F213C7B4E80025DF96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8199C0F013C7B4E80025DF96 /* Fitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8199C0EF13C7B4E80025DF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199C10213C7B4E80025DF96 /* InfoPlist.strings in Resources */,
+				8199C10B13C7B4E80025DF96 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8199C0ED13C7B4E80025DF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8199C10513C7B4E80025DF96 /* main.m in Sources */,
+				8199C10813C7B4E80025DF96 /* FitnessAppDelegate.m in Sources */,
+				8199C10E13C7B4E80025DF96 /* Fitness.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8199C10013C7B4E80025DF96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8199C10113C7B4E80025DF96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8199C10913C7B4E80025DF96 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8199C10A13C7B4E80025DF96 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8199C10F13C7B4E80025DF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8199C11013C7B4E80025DF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8199C11213C7B4E80025DF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitness/Fitness-Prefix.pch";
+				INFOPLIST_FILE = "Fitness/Fitness-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8199C11313C7B4E80025DF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitness/Fitness-Prefix.pch";
+				INFOPLIST_FILE = "Fitness/Fitness-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8199C0EB13C7B4E80025DF96 /* Build configuration list for PBXProject "Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8199C10F13C7B4E80025DF96 /* Debug */,
+				8199C11013C7B4E80025DF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8199C11113C7B4E80025DF96 /* Build configuration list for PBXNativeTarget "Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8199C11213C7B4E80025DF96 /* Debug */,
+				8199C11313C7B4E80025DF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8199C10C13C7B4E80025DF96 /* Fitness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8199C10D13C7B4E80025DF96 /* Fitness.xcdatamodel */,
+			);
+			currentVersion = 8199C10D13C7B4E80025DF96 /* Fitness.xcdatamodel */;
+			path = Fitness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8199C0E813C7B4E80025DF96 /* Project object */;
+}
