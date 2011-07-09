@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FitnessAppDelegate : NSObject <UIApplicationDelegate> {
+@class RootViewController;
 
+@interface FitnessAppDelegate : NSObject <UIApplicationDelegate> {
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet RootViewController *rootViewController;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;

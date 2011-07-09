@@ -12,16 +12,15 @@
 
 
 @synthesize window=_window;
-
+@synthesize rootViewController=__rootViewController;
 @synthesize managedObjectContext=__managedObjectContext;
-
 @synthesize managedObjectModel=__managedObjectModel;
-
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// Override point for customization after application launch.
+	self.window.rootViewController = (UIViewController *)self.rootViewController;
 	[self.window makeKeyAndVisible];
     return YES;
 }
