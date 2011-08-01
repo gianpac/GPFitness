@@ -10,7 +10,10 @@
 
 
 @interface RootViewController : UIViewController {
-    UIToolbar *toolbar;
+    UIToolbar *verticalToolbar;
+    UIToolbar *horizontalToolbar;
 }
+
+- (IBAction)pushButton:(id)sender;
 
 @end
