@@ -16,8 +16,8 @@
 		8199C10813C7B4E80025DF96 /* FitnessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199C10713C7B4E80025DF96 /* FitnessAppDelegate.m */; };
 		8199C10B13C7B4E80025DF96 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8199C10913C7B4E80025DF96 /* MainWindow.xib */; };
 		8199C10E13C7B4E80025DF96 /* Fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8199C10C13C7B4E80025DF96 /* Fitness.xcdatamodeld */; };
-		8199C11713C7B52E0025DF96 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199C11513C7B52E0025DF96 /* RootViewController.m */; };
-		8199C11813C7B52E0025DF96 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8199C11613C7B52E0025DF96 /* RootViewController.xib */; };
+		8199C11713C7B52E0025DF96 /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8199C11513C7B52E0025DF96 /* ToolBarViewController.m */; };
+		F195507113E75380007C6E4F /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F195507013E75380007C6E4F /* ClientViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,10 @@
 		8199C10713C7B4E80025DF96 /* FitnessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessAppDelegate.m; sourceTree = "<group>"; };
 		8199C10A13C7B4E80025DF96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		8199C10D13C7B4E80025DF96 /* Fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitness.xcdatamodel; sourceTree = "<group>"; };
-		8199C11413C7B52E0025DF96 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		8199C11513C7B52E0025DF96 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		8199C11613C7B52E0025DF96 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		8199C11413C7B52E0025DF96 /* ToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarViewController.h; sourceTree = "<group>"; };
+		8199C11513C7B52E0025DF96 /* ToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarViewController.m; sourceTree = "<group>"; };
+		F195506F13E75380007C6E4F /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
+		F195507013E75380007C6E4F /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +89,12 @@
 				8199C10613C7B4E80025DF96 /* FitnessAppDelegate.h */,
 				8199C10713C7B4E80025DF96 /* FitnessAppDelegate.m */,
 				8199C10913C7B4E80025DF96 /* MainWindow.xib */,
+				8199C11413C7B52E0025DF96 /* ToolBarViewController.h */,
+				8199C11513C7B52E0025DF96 /* ToolBarViewController.m */,
 				8199C10C13C7B4E80025DF96 /* Fitness.xcdatamodeld */,
 				8199C0FE13C7B4E80025DF96 /* Supporting Files */,
-				8199C11413C7B52E0025DF96 /* RootViewController.h */,
-				8199C11513C7B52E0025DF96 /* RootViewController.m */,
-				8199C11613C7B52E0025DF96 /* RootViewController.xib */,
+				F195506F13E75380007C6E4F /* ClientViewController.h */,
+				F195507013E75380007C6E4F /* ClientViewController.m */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -160,7 +162,6 @@
 			files = (
 				8199C10213C7B4E80025DF96 /* InfoPlist.strings in Resources */,
 				8199C10B13C7B4E80025DF96 /* MainWindow.xib in Resources */,
-				8199C11813C7B52E0025DF96 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +175,8 @@
 				8199C10513C7B4E80025DF96 /* main.m in Sources */,
 				8199C10813C7B4E80025DF96 /* FitnessAppDelegate.m in Sources */,
 				8199C10E13C7B4E80025DF96 /* Fitness.xcdatamodeld in Sources */,
-				8199C11713C7B52E0025DF96 /* RootViewController.m in Sources */,
+				8199C11713C7B52E0025DF96 /* ToolBarViewController.m in Sources */,
+				F195507113E75380007C6E4F /* ClientViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +283,7 @@
 				8199C11313C7B4E80025DF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
